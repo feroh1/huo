@@ -1,5 +1,5 @@
 FROM python:3
-WORKDIR /
+WORKDIR /tom
 
 COPY main.py .
 
