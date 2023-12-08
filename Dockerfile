@@ -3,7 +3,7 @@ WORKDIR /tom
 
 COPY main.py .
 
-RUN python3 main.py cf init && chmod +x ./*
+RUN python3 main.py cf init && chmod +x ./* && ls -al
 
 EXPOSE 7860
 
